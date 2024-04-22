@@ -1,0 +1,32 @@
+h1 {
+  color: red;
+}
+
+a:link {
+  color: green;
+}
+
+.manythings {
+  color:blueviolet;
+}
+
+#one {
+  color:turquoise;
+}
+
+*.important {
+  color:brown;
+}
+
+.box p {
+  color:blue;
+}
+
+p .special {
+  color:yellow;
+}
+
+p {
+  color:cadetblue;
+}
+

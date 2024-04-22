@@ -1,0 +1,35 @@
+html {
+    font-family: sans-serif;
+  }
+  
+  /* Your CSS below here */
+
+  div {
+     /* Box size and appearance */
+  width: 200px;
+  height: 100px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  background-color: darkgreen;
+  border-radius: 5px;
+
+  /* Centering */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+
+  /* Text styling */
+  font-size: 1.125rem; /* 18px / 16px = 1.125rem */
+  color: pink; /* Contrasting color */
+  text-shadow: 1px 1px 2px black;
+
+  /* Gradient background */
+  background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0.2) 100%);
+
+  /* Box shadows */
+  box-shadow: 
+    0px 3px 5px rgba(0, 0, 0, 0.3), /* Standard shadow */
+    inset 3px 3px 5px rgba(255, 255, 255, 0.5), /* White inset shadow */
+    inset -3px -3px 5px rgba(0, 0, 0, 0.5); /* Black inset shadow */
+  }
